@@ -1,0 +1,94 @@
+[
+  {
+    "no": 1,
+
+    "name": "OnePlus 10R",
+
+    "img": "https://m.media-amazon.com/images/I/41hgz7BH9zL._SX300_SY300_QL70_FMwebp.jpg",
+
+    "price": "10999 /-",
+
+    "off": "27%"
+  },
+  {
+    "no": 2,
+
+    "name": "OnePlus 10R",
+
+    "img": "https://m.media-amazon.com/images/I/41hgz7BH9zL._SX300_SY300_QL70_FMwebp.jpg",
+
+    "price": "10999 /-",
+
+    "off": "27%"
+  },
+
+  {
+    "no": 3,
+
+    "name": "Samsung S20",
+
+    "img": "https://m.media-amazon.com/images/I/41hgz7BH9ZL._SX300_SY300_QL70_FMwebp_.jpg",
+
+    "price": "12999 /-",
+
+    "off": "50%"
+  },
+  {
+    "no": 4,
+
+    "name": "OnePlus 10R",
+
+    "img": "https://m.media-amazon.com/images/I/41hgz7BH9ZL._SX300_SY300_QL70_FMwebp_.jpg",
+
+    "price": "10999 /-",
+
+    "off": "27%"
+  },
+  {
+    "no": 5,
+
+    "name": "OnePlus 10R",
+
+    "img": "https://m.media-amazon.com/images/I/41hgz7BH9zL._SX300_SY300_QL70_FMwebp.jpg",
+
+    "price": "10999 /-",
+
+    "off": "27%"
+  },
+
+  {
+    "no": 6,
+
+    "name": "Samsung S20",
+
+    "img": "https://m.media-amazon.com/images/I/410iwt8d79L._AC_SY200_.jpg",
+
+    "price": "12999 /-",
+
+    "off": "50%"
+  }
+  ,
+  {
+    "no": 7,
+
+    "name": "OnePlus 10R",
+
+    "img": "https://m.media-amazon.com/images/I/41hgz7BH9zL._SX300_SY300_QL70_FMwebp.jpg",
+
+    "price": "10999 /-",
+
+    "off": "27%"
+  },
+
+  {
+    "no": 8,
+
+    "name": "Samsung S20",
+
+    "img": "https://m.media-amazon.com/images/I/41hgz7BH9zL._SX300_SY300_QL70_FMwebp.jpg",
+
+    "price": "12999 /-",
+
+    "off": "50%"
+  }
+]

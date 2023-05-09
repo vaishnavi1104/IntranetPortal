@@ -1,0 +1,87 @@
+.text-emp-directory{
+    margin-left: 970px;
+    margin-top: -510px;
+    color: #091351;
+    font-weight:600;
+    font-size: large;
+    padding-bottom: 0;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(233, 25, 133);
+}
+.EmpDirectory{
+    height: 400px;
+    width: 330px;
+    background-color: white;
+    margin-left: 940px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.emp-btn{
+    position: relative;
+    height: 30px;
+    width: 125px;
+    top: 90%;
+    left: 58%;
+    background-color: #091351;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.EmpDirectory-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .EmpDirectory-info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .EmpDirectory-info p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .EmpDirectory img {
+    max-width: 100%;
+    max-height: 80%;
+    margin-bottom: 20px;
+  }
+@media screen and (max-width: 960px){
+    .text-emp-directory{
+        margin-left: 310px;
+        margin-top: -475px;
+        color: #091351;
+        font-weight:600;
+        font-size: large;
+        padding-bottom: 0;
+        text-decoration-line: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: rgb(233, 25, 133);
+    }
+    .EmpDirectory{
+        height: 400px;
+        width: 195px;
+        background-color: white;
+        margin-left: 290px;
+        margin-top: 25px;
+        border:black;
+    }
+    .emp-btn{
+        position: relative;
+        height: 30px;
+        width: 100px;
+        top: 90%;
+        left: 38%;
+        background-color: #091351;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+}

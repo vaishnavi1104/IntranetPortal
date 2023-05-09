@@ -1,0 +1,80 @@
+.Date{
+    position: relative;
+    margin-left: 970px;
+    margin-top: -400px;
+    background-color: #091351;
+    border-radius: 6px;
+    color: rgb(59, 58, 58);
+    height: 150px;
+    width: 300px;
+  }
+.grid-item2{
+    color: #fff;
+    font-size:x-large;
+    padding-top: 20px;
+    padding-left: 20px;
+    /* size: 100px; */
+  }
+.h3{
+  /* position: relative; */
+  /* margin-top: 100px; */
+  margin-left: 15px;
+  padding-top: 30px;
+  color: #fff;
+  font-size: 10px;
+  /* text-transform: uppercase; */
+  /* font-weight: 400; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h4{
+  /* position: relative; */
+  /* margin-top: 100px; */
+  /* margin-left: 10px; */
+  padding-top: 5px;
+  color: #fff;
+  
+  /* font-weight: 400; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .h3{
+  position: relative;
+  color: red; */
+  /* margin-top: 20px; */
+  /* margin-left: 30%; */
+  /* font-weight: 300;
+} */
+@media screen and (max-width: 960px){
+  .Date{
+    position: relative;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: #091351;
+    border-radius: 6px;
+    color: rgb(59, 58, 58);
+    height: 100px;
+    width: 400px;
+    margin-bottom: 10px;
+  }
+.grid-item2{
+    color: white;
+    font-size:x-large;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+.h3{
+  position: relative;
+  margin-top: -60px;
+  margin-left: 30%;
+  color: white;
+  font-size: large;
+  font-weight: 400;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p2{
+  position: relative;
+  color: white;
+  margin-top: 10px;
+  margin-left: 30%;
+  font-weight: 300;
+}
+}

@@ -1,0 +1,62 @@
+.text-email{
+    margin-left: 610px;
+    margin-top: -510px;
+    color: #091351;
+    font-weight:600;
+    font-size: large;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(233, 25, 133);
+}
+.Email{
+    height: 400px;
+    width: 330px;
+    background-color: white;
+    margin-left: 570px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.email-btn{
+    position: relative;
+    height: 30px;
+    width: 125px;
+    top: 90%;
+    left: 58%;
+    background-color: #0b1973;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+@media screen and (max-width: 960px){
+    .text-email{
+        margin-left: 100px;
+        margin-top: 30px;
+        color: #091351;
+        font-weight:600;
+        font-size: large;
+        text-decoration-line: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: rgb(233, 25, 133);
+    }
+    .Email{
+        height: 400px;
+        width: 195px;
+        background-color: white;
+        margin-left: 80px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .email-btn{
+        position: relative;
+        height: 30px;
+        width: 100px;
+        top: 90%;
+        left: 38%;
+        background-color: #0b1973;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+}

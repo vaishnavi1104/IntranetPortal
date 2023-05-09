@@ -1,0 +1,131 @@
+.text-new-starters{
+  margin-left: 230px;
+  margin-top: 30px;
+  color: #091351;
+  font-weight:600;
+  font-size: large;
+  /* padding-bottom: 0; */
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(233, 25, 133);
+}
+.NewStarters{
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: #091351;
+    border-radius: 5px;
+    height: 300px;
+    width: 33%;
+    text-align:center;
+    /* contain: content; */
+  }
+  .EmpImage1{
+    width: 25%;
+    height:80%;
+    margin-top: 30px;
+    margin-left: -280px;
+    margin-bottom: auto;
+  }
+  .h1-newstarter{
+    position: relative;
+    margin-top: -160px;
+    margin-left: 39px;
+    font-size: medium;
+    font-weight: 400;
+    color: white;
+  }
+  .p-newstarter{
+    margin-left: 115px;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+  }
+  .EmpDetailsBox{
+    margin-top: 28px;
+    margin-left: 190px;
+    width: 280px;
+    height: 140px;
+    background-color: white;
+  }
+  @media screen and (max-width: 960px){
+    .text-new-starters{
+      margin-left: 220px;
+      margin-top: 30px;
+      color: #091351;
+      font-weight:600;
+      font-size: large;
+      padding-bottom: 0;
+      text-decoration-line: underline;
+      text-decoration-thickness: 3px;
+      text-decoration-color: rgb(233, 25, 133);
+    }
+    .NewStarters{
+        margin-left: 80px;
+        margin-top: 20px;
+        background-color: #091351;
+        border-radius: 5px;
+        height: 270px;
+        width: 400px;
+      }
+      .EmpImage1{
+        width: 25%;
+        height:80%;
+        margin-top: 30px;
+        margin-left: -260px;
+        margin-bottom: auto;
+      }
+      .carousel{
+        height: 300px;
+        width: auto;
+        display: flex;
+        padding-left: 30px;
+        padding-right: 20px;
+      }
+      .carousel img{
+        height: 500px;
+        width: 20%;
+        padding-right: 280px;
+        margin-right: 0;
+    }
+    .news-h1{
+      margin-top: -200px;
+      margin-left: 150px;
+      font-size: medium;
+      color: white;
+    }
+    .carousel .slide img {
+      width: 100%;
+      vertical-align: top;
+      border: 0;
+    }
+    .news-p{
+      margin-left: 180px;
+      font-size: small;
+      color: white;
+      margin-top: 30px;
+      text-align: left;
+    }
+      .h1-newstarter{
+        position: relative;
+        margin-top: -220px;
+        margin-left: 20px;
+        font-size: large;
+        font-weight: 400;
+        color: white;
+      }
+      .p-newstarter{
+        margin-left: 115px;
+        margin-top: 10px;
+        font-weight: 100;
+        font-size: 15px;
+        color: white;
+      }
+      .EmpDetailsBox{
+        margin-top: 28px;
+        margin-left: 130px;
+        width: 230px;
+        height: 140px;
+        background-color: white;
+      }
+  }

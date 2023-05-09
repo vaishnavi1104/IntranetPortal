@@ -1,0 +1,39 @@
+.text-documentsHome{
+    margin-left: 220px;
+    margin-top: 50px;
+    color: #091351;
+    font-weight:600;
+    font-size: large;
+    padding-bottom: 0;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(233, 25, 133);
+}
+.Documents{
+    height: 400px;
+    width: 330px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 960px){
+    .text-documentsHome{
+        margin-left: 240px;
+        margin-top: 30px;
+        color: #091351;
+        font-weight:600;
+        font-size: large;
+        padding-bottom: 0;
+        text-decoration-line: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: rgb(233, 25, 133);
+    }
+    .Documents{
+        height: 200px;
+        width: 400px;
+        background-color: white;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+}

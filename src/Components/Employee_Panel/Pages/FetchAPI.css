@@ -1,0 +1,138 @@
+body{
+	background: #f4f4f4;
+	
+}
+
+
+.heading{
+    color: #030a5eb7;
+	text-transform: capitalize;
+	
+}
+ .heading h3{
+    float:left;
+    font-size: 20px;
+    border-bottom: 5px solid #d530eb;
+    margin-bottom: 50px;
+    /* padding: 13px 0; */
+	margin-right: 120px;
+	font-weight: 600;
+}
+
+
+.search input{
+	background-color: #fff;
+	border: none;
+}
+.search{
+	/* border: none; */
+	/* border: 4px solid #fff; */
+	/* padding: 100px 100px; */
+	
+	/* margin-left: 210px; */
+	/* margin-bottom: 200px; */
+	/* height: 100%; */
+	/* width: 100%; */
+	/* border: 20px solid black; */
+	padding: 0px 5px;
+	/* position: relative; */
+	font-weight: 500;
+	border: none;
+}
+
+
+.search:focus{
+	outline: none;
+}
+/* .material{
+
+} */
+/* .content{ */
+	/* width: 100%; */
+	/* height: 100%; */
+	/* top:0; */
+	/* left: 0; */
+	/* flex-direction: column; */
+	/* justify-content: center; */
+	/* text-align: left;  */
+	/* align-items: left; */
+	/* position: fixed; */
+	/* background: #030589b7; */
+	/* font-size: 5px; */
+	/* display: flex; */
+	/* opacity: 0; */
+	/*transition: 0.6s;*/
+	/* font-weight: 700; */
+	/* font-size: 40px; */
+/* } */
+
+/* .content:hover{
+	opacity: 1;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.content > *{
+	transform: translateY(25px);
+	transition: tranform 0.9s;
+}
+.content:hover > *{
+	transform: translateY(0px);
+} */
+.slider{
+	background-color: darkblue;
+	position: absolute;
+	bottom: 100%;
+	left: 0px;
+	/* right:0; */
+	top: 0px;
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+	transition: .90s;
+	opacity: 0.8;
+}
+.card:hover .slider{
+	height: 100%;
+	bottom: 0;
+}
+.contents{
+    /* top: 50%; */
+	/* left:50%; */
+	position: absolute;
+	text-align: justify;
+	justify-content: center;
+	justify-items: center;
+	/* transform: translate(-50%,-50%); */
+	font-size: 10px;
+}
+
+ h5{
+	/* font-size: 5px; */
+	font-size:18px;
+	color: #fff;
+	/* margin-bottom: 15px; */
+	margin-left: 50px;
+	font-weight: 300;
+}
+
+
+
+
+.viewMore{
+	/* position: relative; */
+	width:100%;
+    border: none;
+	height: 30px;
+	color: #030a5eb7;
+	font-weight: 600;
+	background-color: #9798cdb7 ;
+}
+.viewMore:hover{
+	color: #fff;
+	background-color: #030a5eb7;
+	transition: 0.1s;
+}
+
+
+
