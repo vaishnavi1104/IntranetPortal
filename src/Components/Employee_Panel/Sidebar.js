@@ -82,12 +82,12 @@ const SideBar = ({ children }) => {
       <div className="main-container">
         <motion.div
           animate={{
-            width: isOpen ? "200px" : "45px",
+            width: isOpen ? "180px" : "40px",
 
             transition: {
-              duration: 0.5,
+              duration: 0,
               type: "spring",
-              damping: 10,
+              damping: 15,
             },
           }}
           className={`sidebar `}
