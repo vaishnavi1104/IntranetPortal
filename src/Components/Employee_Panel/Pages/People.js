@@ -1,7 +1,7 @@
 //import React from 'react'
 import Navbar from "../Navbar";
 import Sidebar from "../Sidebar";
-import "../Pages/People.css";
+import "./People.css";
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
