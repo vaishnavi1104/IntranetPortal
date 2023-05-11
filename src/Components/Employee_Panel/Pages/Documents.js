@@ -81,40 +81,89 @@ function People() {
     <>
     <Navbar />
       <Sidebar />
-        <h1 className="text-center">Popular Dishes</h1>
-       <div className="container d-flex justify-content-center pl-5">
-        
-        <div className="row row-cols-1 row-cols-md-3 g-2 py-5 " style={{width:"85%"}}>
-        {userData.map((getUser, index) => (
-            <div className="col"   key={getUser.id}>
-            <div className="card">
-              <div className="d-flex">
-                        <img src={getUser.avatar_url} width="80" alt="..."/>
-                      </div>
-                        <div className="slider">
-                          <div className="card-body">
-                              <h6 className="card-title"> {getUser.login}</h6>
-                              <h6 className="card-text" style={{fontSize:"10px"}}><BsFillEnvelopeFill style={{float:"left", paddingRight:"2px"}}/>{getUser.url}</h6>
-                          </div>
-                          
-                      <div className="image ">
-                          <div className="contents">
-                                      <h5 className="">Designation: {getUser.type}</h5>
-                                      <h5 className="">Department: {getUser.type}</h5>
-                                      <h5 className="">Branch: {getUser.type}</h5>
-                          </div>
-                      </div>
-                      
+      {/* <div className="container"/> */}
+      {/* <div className="row row-cols-1 row-cols-md-3 g-2 py-5" style={{width:"85%"}}> */}
+                  
+      <div className="container mt-0 mb-0 d-flex justify-content-center pl-5">
+             <div className="row row-cols-md-3 " style={{width:"85%"}}>                        
+                         <div className="heading"><h2 className="">Employee Directory</h2></div>
+                         <div className="col-md-4">
+                         <div className="search">
+                           <i className="fa fa-search"/>
+                           <input type="text " className="form-control" placeholder="Search Employee"
+                           value={query}
+                           onChange={(e) => handlesearch(e)}
+                           />
+                         </div>
+                         </div>
               </div>
-                      <div className=" justify-content-around">
-                          <button className="btn btn-primary">View More</button>
-                      </div>
             </div>
-        </div>
+     
+
+      
+       <div className="container mt-0 d-flex justify-content-center pl-5">
+             
+
+        <div className="row row-cols-1 row-cols-md-3 g-2 py-5" style={{width:"85%"}}>
+              
+
+        {userData.map((getUser, index) => (
+            <div className="col mt-0"   key={getUser.id}>
+                <div className="card">
+                         
+                            <div className="d-flex">
+                              <img src={getUser.avatar_url} className="rounded" width="80" alt="..."/>
+                                <div className="cardbody ml-4">
+                                    <h6 className="cardtitle"> {getUser.login}</h6>
+                                    <h6 className="cardtext" style={{fontSize:"10px"}}><BsFillEnvelopeFill style={{float:"left", paddingRight:"2px", fontSize:"14px"}}/>{getUser.url}</h6>
+                                </div>
+                            </div>
+                        
+                            
+                    
+                                
+                                <div className="slider"
+                                 onClick={() =>
+                                  getData(
+                                    getUser.avatar_url,
+                                    getUser.login,
+                                    getUser.url,
+                                    getUser.type
+                                  )
+                                }>
+                                  <div className="contents">
+                                              <h5 className="">Designation: {getUser.type}</h5>
+                                              <h5 className="">Department: {getUser.type}</h5>
+                                              <h5 className="">Branch: {getUser.type}</h5>
+                                  </div>
+                                </div>
+                                <div className="justify-content-center">
+                                    <button className="btnn" onClick={() =>
+                                      getData(
+                                        getUser.avatar_url,
+                                        getUser.login,
+                                        getUser.url,
+                                        getUser.type
+                                        )
+                                      }>View More</button>
+                                </div>
+                </div>
+            </div>
         ))}
           
           </div>
-          </div>    
+          </div>  
+          {model === true ? (
+        <PeopleModal
+          avatar_url={tempdata[1]}
+          login={tempdata[2]}
+          url={tempdata[3]}
+          type={tempdata[4]}
+          hide={() => setModel(false)}
+        />
+      ) : (
+        ""
+      )}  
     </>
   );
 }
